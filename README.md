@@ -5,13 +5,14 @@ This project scrapes the text from a user-provided article URL and summarizes it
 ---
 
 ## Project Structure
-# article_summarizer/
+```
 │
 ├── app.py              # Main entry point: orchestrates scraping & summarization
 ├── scraper.py          # Fetches and cleans article text from a given URL
 ├── summarizer.py       # Summarizes text using a Hugging Face model
 ├── README.md           # Documentation
 └── requirements.txt    # Python dependencies
+```
 
 ---
 
